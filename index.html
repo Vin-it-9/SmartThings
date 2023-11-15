@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+    }
+
+header{
+    display: flex;
+  justify-content: space-between;
+  margin:  0px 30px 0px 30px;}
+.head{  position: sticky;
+  z-index: 5;
+  top: 0;
+  background: hsl(206, 91%, 79%);
+}
+
+.toggle-btn {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.bar {
+    cursor: pointer;
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}.page1 {
+  background: hsl(206, 91%, 79%);
+}
+.page1 , .page2 , .page3{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.page1 p {
+  color: rgb(0, 0, 0);
+
+font-size: 30px;
+font-weight: bold;
+margin-top: 50px;
+}
+.card{
+    box-shadow:  rgb(0, 0, 0) 1px 2px 5px 1px;
+    margin-left: 0;
+    background: rgb(235, 232, 232);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    z-index: 2;
+    justify-content:first baseline;
+    border: 2px solid rgb(59, 155, 211);
+    height: 45vh;
+    width: 50vw;
+    margin-top: 20px;
+}
+.card button{
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 100px;
+   background: #2360c3;
+}
+  
+.card button:focus{
+    background: linear-gradient(90deg ,rgb(0, 191, 255),rgb(21, 64, 235)
+    );
+
+}
+.page1 .char{
+  z-index: 3;
+margin-top: -50px;
+}
+.page2 .cards{
+  height: 200px;
+  padding: 15px;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+ border: 2px solid rgb(150, 212, 232);
+  margin: 50px 0px 0px 0px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 20px 2px lightblue;
+ 
+}
+.page2 {
+background: whitesmoke;
+  padding-bottom: 100px;
+}
+.page2  section span{
+  
+  padding: 15px;
+  border-radius: 100px;
+  background: lightblue;
+  font-size: 20px;
+}
+.page3{
+padding-top: 50px;
+background: hsl(206, 91%, 79%);
+ 
+  
+ }
+ .page3 .cards h3{
+  float:right;
+  }
+ .page3 .cards{ 
+
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  text-align:start;
+  background: rgba(111, 111, 213, 0.5);
+  height:350px;
+  width: 50vw;
+  border-radius: 20px;
+}
+ #c{
+  margin-bottom: 50px;
+ }
+
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+    <div class="head">
+<header>
+    <h2>SmartThing</h2>
+
+    <div class="b">
+        <br>
+  <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
+
+</div>
+
+
+</header>
+</div>
+<div class="page1">
+    
+    <p>Seamless. <br> sustainable. And <br> Easy For <br>Everybody.</p>
+    <div class="card">
+        <h3>Connected, Smart <br> Living</h3>
+        <p2>Simplify your everyday with the <br> SmartThings App. Enjoy a <br> customized smart home with <br> innovative SmartThings- <br>compatible devices that let you <br> check the front door, set the <br> mood, and automate your daily <br> routines — all from anywhere.</p2>
+        <h4>Get it on Google Play <br> <br>
+            Download on the App Store</h4>
+        
+      <div class="bt"><button type="button" style="color: white;">Do the SmartThings!</button></div>
+       </div> 
+       <div class="char">
+        <img src="smart_char.png" alt="">
+       </div>
+    
+
+</div>
+
+<div class="page2">
+  <br>
+  <section>
+    <h1>Explore SmartThings</h1>
+    <p>Check out our How To videos and learn how <br> to get the most out of the SmartThings App.</p>
+<br>
+    <span>Explore</span>
+  </section>
+  <div class="cards">
+    <img src="home-telescope-icon.svg" alt="">
+    <h3>
+      Learn More About Our <br>Partnership Opportunities
+    </h3>
+
+  </div>
+
+  <div class="cards">
+    <img src="home-certified-icon.svg" alt="">
+    <h3>Get Works With SmartThings Certified on Our Developer <br> Center</h3>
+  </div>
+
+</div>
+<div class="page3">
+  <div class="video">
+    <video src="SmartThings_Main_Film_16x9_Subtitle_720.mp4" width="350px" controls loop ></video>
+  </div>
+ <div class="cards">
+  <h3>The Future of the Smart<br>Home is Here</h3>
+  <p>Meet Matter, the new smart <br> home connectivity standard. <br> Now integrated into the <br> SmartThings ecosystem, Matter <br> makes it easy to control all of <br> your smart home devices from <br> one place. Check out how simple <br> it really is.</p>
+  <a href="#" style="text-decoration: none; color: rgb(0, 86, 199);">Learn More</a>
+ </div>
+
+
+ <div class="cards" id="c">
+  <h3>SmartThings Station </h3>
+  <p> <br>Sleek and portable, the <br> SmartThings Station hub <br> doubles as a fast charging pad <br> that offers quick setup and <br> compatibility with your favorite <br> smart home devices. Activate <br> routines, charge your phone, and <br> track the locations of registered <br> devices, all with a press of the <br> Smart Button.</p>
+  <a href="#" style="text-decoration: none; color: rgb(0, 86, 199);">Learn More</a>
+ </div>
+
+</div>
+
+
+    
+
+
+</body>
+</html>
