@@ -41,7 +41,8 @@ header{
 .page1 {
   background: hsl(206, 91%, 79%);
 }
-.page1 , .page2 , .page3{
+.page1 , .page2 , .page3 , .page4{
+  flex-wrap: wrap;
   display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,7 +85,7 @@ margin-top: 50px;
 }
 .page1 .char{
   z-index: 3;
-margin-top: -50px;
+margin-top: -0px;
 }
 .page2 .cards{
   height: 200px;
@@ -117,7 +118,7 @@ background: whitesmoke;
 .page3{
 padding-top: 50px;
 background: hsl(206, 91%, 79%);
- 
+
   
  }
  .page3 .cards h3{
@@ -140,6 +141,27 @@ background: hsl(206, 91%, 79%);
  #c{
   margin-bottom: 50px;
  }
+ .page4 {
+ background-color: #00aaff;
+
+ }
+ .page4 .header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+ }
+
+ .page4 .sec {
+text-align: left;
+width: 75vw;
+font-size: 14px;
+  height: 450px;
+  padding: 40px;
+  border-bottom: 2px blue solid;
+ }
+
+ .page4 .sec img{
+  width: 100%;
+ } 
 
 
 
@@ -207,7 +229,7 @@ background: hsl(206, 91%, 79%);
 </div>
 <div class="page3">
   <div class="video">
-    <video src="SmartThings_Main_Film_16x9_Subtitle_720.mp4" width="350px" controls loop ></video>
+    <video src="SmartThings_Main_Film_16x9_Subtitle_720.mp4" width="350px" muted autoplay controls loop ></video>
   </div>
  <div class="cards">
   <h3>The Future of the Smart<br>Home is Here</h3>
@@ -223,6 +245,43 @@ background: hsl(206, 91%, 79%);
  </div>
 
 </div>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="72"  viewBox="0 0 1440 72" fill="none" style=" width: 100%; height: auto; margin-bottom: -3.5px; background: hsl(206, 91%, 79%); "  ><path d="M0 71.9999L1440 72C1302.67 48 966.8 -4.13685e-05 722 -6.27696e-05C477.2 -8.41706e-05 138.667 47.9999 0 71.9999Z" fill="#00aaff"></path></svg>
+<div class="page4">
+  <div class="header" >
+    <h3>Stay Up to Date with SmartThings</h3>
+    <p>Visit the SmartThings blog to stay in the <br> know about our products, updates, and <br> company news.</p>
+  </div>
+
+
+<div class="sec">
+  <img src="img1.png" alt="">
+  <h4>SmartThings Energy: Empowering Users to Manage Their Energy and Earn Rewards</h4>
+  <p>As more of us connect more things to the power grid, from appliances and TVs, to smart blinds and cars, energy demand keeps going up. And when many of us use energy at the same time — like when we all turn our coffee makers on in the morning, plug in cars after work, or run the dishwasher after dinner — that demand can be more than the grid normally supplies.</p>
+</div>
+
+<div class="sec">
+  <img src="Matter-Thumbnail.jpeg" alt="">
+  <h4>Everything You Need to Know About Matter</h4>
+  <p>Matter, a new industry protocol created by hundreds of leading and innovative companies (including Samsung), marks a new era for the smart home and its users. With a mission of simplifying the connected living experience, Matter makes it easy for users to buy, set up, and control smart devices. And while the new protocol is stirring a lot of buzz, many are wondering “how does it work?”</p>
+</div>
+
+
+<div class="sec" style="border: none;">
+  <img src="img3.png"  alt="">
+  <h4>SmartThings Partner Spotlight: How Aeotec Keeps Customers Connected</h4>
+  <p>Since 2013, we have proudly partnered with Aeotec, the leading maker of high-quality, everyday smart home products. What’s even more exciting is that their products, like the Aeotec Smart Home Hub, are exclusive and compatible with the SmartThings App, and connect to Works with SmartThings-certified devices, including Z-Wave, Zigbee, or Wi-Fi devices. We sat down with Aeotec to discuss how their products work with SmartThings — and how they keep users connected to their homes. Here’s what we learned.</p>
+</div>
+
+<div class="part">
+
+</div>
+
+
+</div>
+  
+
+
 
 
     
