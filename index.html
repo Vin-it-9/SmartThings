@@ -142,7 +142,7 @@ background: hsl(206, 91%, 79%);
   margin-bottom: 50px;
  }
  .page4 {
- background-color: #00aaff;
+ background-color: #c4ebff;
 
  }
  .page4 .header {
@@ -154,14 +154,40 @@ background: hsl(206, 91%, 79%);
 text-align: left;
 width: 75vw;
 font-size: 14px;
-  height: 450px;
+  height: 420px;
   padding: 40px;
-  border-bottom: 2px blue solid;
+  border-bottom: 2px solid lightblue;
+
  }
 
  .page4 .sec img{
   width: 100%;
  } 
+ .page4 .part {
+   display: flex; 
+   width: 100%; 
+   flex-direction: row;
+
+   background: whitesmoke;
+
+
+
+ }
+ .part .image{
+  width: 100%;
+ }
+ .image img{
+width:60px;
+margin: 50px 0px 50px 0px;
+
+ }
+.info button {
+  margin-bottom: 50px;
+  background: rgba(185, 237, 255, 0.7);
+  border-radius: 50px;
+  border: none;
+
+}
 
 
 
@@ -246,8 +272,8 @@ font-size: 14px;
 
 </div>
 
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="72"  viewBox="0 0 1440 72" fill="none" style=" width: 100%; height: auto; margin-bottom: -3.5px; background: hsl(206, 91%, 79%); "  ><path d="M0 71.9999L1440 72C1302.67 48 966.8 -4.13685e-05 722 -6.27696e-05C477.2 -8.41706e-05 138.667 47.9999 0 71.9999Z" fill="#00aaff"></path></svg>
-<div class="page4">
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="72"  viewBox="0 0 1440 72" fill="none" style=" width: 100%; height: auto; margin-bottom: -2.5px; background: hsl(206, 91%, 79%); "  ><path d="M0 71.9999L1440 72C1302.67 48 966.8 -4.13685e-05 722 -6.27696e-05C477.2 -8.41706e-05 138.667 47.9999 0 71.9999Z" fill="#c4ebff"></path></svg>
+<div class="page4" >
   <div class="header" >
     <h3>Stay Up to Date with SmartThings</h3>
     <p>Visit the SmartThings blog to stay in the <br> know about our products, updates, and <br> company news.</p>
@@ -267,18 +293,192 @@ font-size: 14px;
 </div>
 
 
-<div class="sec" style="border: none;">
+<div class="sec" >
   <img src="img3.png"  alt="">
   <h4>SmartThings Partner Spotlight: How Aeotec Keeps Customers Connected</h4>
   <p>Since 2013, we have proudly partnered with Aeotec, the leading maker of high-quality, everyday smart home products. What’s even more exciting is that their products, like the Aeotec Smart Home Hub, are exclusive and compatible with the SmartThings App, and connect to Works with SmartThings-certified devices, including Z-Wave, Zigbee, or Wi-Fi devices. We sat down with Aeotec to discuss how their products work with SmartThings — and how they keep users connected to their homes. Here’s what we learned.</p>
 </div>
 
-<div class="part">
+<div class="part" style="border-bottom: 2px solid lightblue; ">
+  <div class="image"><img src="logo/home-logo-philips-hue.svg" alt="Partnership"></div>
+  <div class="image"><img src="logo/home-logo-google-nest.svg" alt="Partnership"></div>
+  <div class="image"><img src="logo/home-logo-ring.svg" alt="Partnership"></div>
+  <div class="image"><img src="logo/home-logo-yale.svg" alt="Partnership"></div>
+</div>
 
+
+<div class="info" style="background: whitesmoke; width: 100%;">
+  <h3>Connecting You to an Ecosystem of <br> Smarter Living Solutions</h3>
+  <button type="button" style="width: 150px; height: 50px;">See All Brands</button>
 </div>
 
 
 </div>
+<style>
+  footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+  }
+  footer .content {
+    /* background: #000; */
+    border-bottom: 2px solid lightblue;
+    width: 90vw;
+    margin-bottom: 50px;
+  }
+  .down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+  }
+  .last{
+   
+
+    background: #191d22;
+
+  }
+  .down{
+    width: 90vw;
+  }
+  .down img {
+    width: 100px;
+  padding: 0px 20px 30px 20px;
+  }
+  .car {
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cc {  
+   background:rgba(158, 189, 222, 0.08);;
+   border-radius: 20px;
+   border: none;
+   color: white;
+   flex-wrap: wrap;
+   margin-bottom: 40px;
+   height: 240px;
+    flex-direction: column;
+    width: 90vw;   
+  }
+  
+  
+</style>
+
+<div class="last">
+<footer style="background: #191d22;">
+  <div class="content" style="color:  white;">
+<div class="cart"><h4>App & products</h4></div>
+<div class="cart"><h4>Services</h4></div>
+<div class="cart"><h4>Explore</h4></div>
+<div class="cart"><h4>Partners</h4></div>
+<div class="cart"><h4>Resources</h4></div>
+</div><br>
+</footer>
+
+<div class="down">
+  <img src="down/play store.png" alt=""> 
+  <img src="down/apple store.png" >
+</div>
+<div class="car">
+  <div class="cc">
+  <h2>SmartThings</h2>
+  <p>SmartThings is based in Mountain View, California and  operates independently as a wholly owned subsidiary of Samsung <br> Electronics America, Inc.</p>
+ 
+ 
+ <style>
+  .icon{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+   
+   }
+   .size {
+    width: 200px;
+     display: flex;
+    justify-content:space-evenly ;
+    padding-left: 20px;
+    
+   
+   }
+  .icon img {
+    padding: 8px;
+    background: whitesmoke;
+    width: 25px;
+    border-radius: 10px;
+
+  }
+ </style>
+  <div class="icon">
+    <div class="size">
+    <img src="icon/logo_x.svg" alt=""> 
+    <img src="icon/logo_instagram.svg" alt="">
+    <img src="icon/logo_linkedin.svg" alt="">
+  </div>
+
+  </div>
+</div>
+</div>
+
+<style>
+  .foot {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    background: #252525;
+    color: white;
+
+  }
+
+  .list  {
+    margin-bottom: 50px;
+  
+  }
+  .list a   {  text-decoration: white;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+
+  }
+</style>
+<div class="foot">
+  <h5>© 2023 Samsung Electronics Co., LTD.</h5>
+  <div class="list">
+    <a href="#">Report Vulnerability</a>
+    <a href="#">Privacy</a>
+    <a href="#">cookie</a>
+    <a href="#">Terms</a>
+  
+
+  </div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
   
 
 
